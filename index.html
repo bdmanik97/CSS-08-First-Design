@@ -12,12 +12,12 @@
         <a href=""> <img src="./img/lg1005.png" alt=""></a>
         <nav class="nav1">
             <a href="">Home</a>
-            <a href="">Contact Us</a>
-            <a href="">Register</a>
+            <a href="#contact">Contact Us</a>
+            <a href="register.html">Register</a>
         </nav>
         <div class="div1">
             <input type="text" name="Search" placeholder="Search hear...">
-            <button class="button1">Search</button>
+            <button class="button1" type="submit">Search</button>
         </div>
     </header>
 
@@ -41,8 +41,17 @@
             <a href="https://www.facebook.com/groups/1314456382542929" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
             <a href=""><i class='bx bxl-twitter'></i></a>
             <a href=""><i class='bx bxl-whatsapp' ></i></a>
-
         </div>
+    </section>
+
+    <section id="contact">
+        <form action="method" class="contact-form">
+            <input class="input-field" type="text" name="name" value="" placeholder="Enter your name">
+            <input class="input-field" type="phone" name="phone" value="" placeholder="Enter your phone">
+            <input class="input-field" type="email" name="email" value="" placeholder="Enter your email">
+            <textarea class="input-field textarea-field" name="message" placeholder="Message"></textarea>
+            <button class="btn" type="submit">Send Message</button>
+        </form>
     </section>
 </body>
 </html>

@@ -1,9 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(39, 39, 55);
-    background-position: center;
-    background-size: cover;
+    background-color: black;
     color: white;
 }
 
@@ -47,6 +45,9 @@ body{
     height: 100vh;
     padding: 0 10%;
     align-items: center;
+    background-image: url(./img/img2009.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .content{
@@ -116,5 +117,42 @@ body{
 .social a:hover{
     color: rgb(181, 45, 45);
 }
+#contact{
+    background-color: goldenrod;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    background-color: aquamarine;
+    height: 400px;
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 70px;
+    box-shadow: 0 0 20px 0 red;
+}
+.input-field{
+    height: 40px;
+    width: 350px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.textarea-field{
+    height: 120px;
+}
+.btn{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    padding: 8px;
+    margin-top: 10px;
 
+
+}
 
